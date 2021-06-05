@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Feature" parallel="false">
+	<test name="UnitLevelTest">
+		<classes>
+			<parameter name="param" value="'I am beforeMerthod'">
+				<class name="lap6.bai2"></class>
+			</parameter>
+		</classes>
+	</test>
+</suite>

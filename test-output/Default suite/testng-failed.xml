@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.edusys.entity.KhoaHocNGTest">
+        <methods>
+          <include name="testGetMaKH"/>
+          <include name="testSetNgayTao"/>
+          <include name="tearDownMethod"/>
+          <include name="testSetMaNV"/>
+          <include name="tearDownClass"/>
+          <include name="testGetMaCD"/>
+          <include name="testSetGhiChu"/>
+          <include name="setUpClass"/>
+          <include name="testSetMaCD"/>
+          <include name="testSetThoiLuongWithZero"/>
+          <include name="testGetNgayKG"/>
+          <include name="testSetHocPhiWithNegative"/>
+          <include name="testSetMaKH"/>
+          <include name="testGetGhiChu"/>
+          <include name="testSetNgayKG"/>
+          <include name="setUpMethod"/>
+          <include name="testGetNgayTao"/>
+          <include name="testSetThoiLuongWithNegative"/>
+          <include name="testToString"/>
+          <include name="testGetMaNV"/>
+        </methods>
+      </class> <!-- com.edusys.entity.KhoaHocNGTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
